@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   ## Testing
   ${data.testing}
 
-  ##License
+  ## License
   This project has been licensed under the following: ${data.license}
 
   ## Questions
