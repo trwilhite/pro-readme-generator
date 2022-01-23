@@ -1,10 +1,10 @@
 
-  # elkag
+  # README Generator
 
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  klagemr
+  Uses node.js in order to allow a user to quickly create a README file.
 
   ## Table of Contents
   * [Description](#description)
@@ -17,20 +17,20 @@
 
 
   ## Installation
-  
+  Git clone, local repository...
 
   ## Usage
-  
+  First step is to open the terminal and invoke the application using the command line...
 
   ## Contributions
-  
+  Refer to the Contributor Covenant guidelines.
 
   ## Testing
-  
+  Attempt skipping a question.
 
   ## Questions
-  For any questions regarding this or any other project created by , please contact me at .
+  For any questions regarding this or any other project created by github-username, please contact me at janedoe@gmail.com.
 
   ## License
-  This project is licensed under the following license: GNU General Public License v3.0.
+  This project is licensed under the following license: MIT License.
 
