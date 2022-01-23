@@ -1,10 +1,10 @@
 
-  # kjnrh
+  # kng
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
   ## Description
-  aekjhnkaet
+  kaejrng
 
   ## Table of Contents
   * [Description](#description)
@@ -17,20 +17,20 @@
 
 
   ## Installation
-  jktrnhka
+  kjerang
 
   ## Usage
-  ejkarngjkaer
+  kjearng
 
   ## Contributions
-  eajknhak
+  jkearng
 
   ## Testing
-  akrejng
+  kjareng
 
   ## Questions
-  For any questions regarding this or any other project created by kjernag, please contact me at ejkarng.
+  For any questions regarding this or any other project created by lkareg, please contact me at lakergm.
 
   ## License
-  This project is licensed under the following license: Apache License 2.0.
+  This project is licensed under the following license: Mozilla Public License 2.0.
 

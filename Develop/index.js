@@ -71,7 +71,7 @@ const writeFile = data => {
 };
   
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
     inquirer.prompt(questions)
     .then((data) => {
         writeFile(generateMarkdown(data), "README.md");
