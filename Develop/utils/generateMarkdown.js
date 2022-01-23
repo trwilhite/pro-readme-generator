@@ -20,7 +20,13 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === 'No License') {
+    return ''
+  } else {
+    return '* [License](#license)'
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -42,7 +48,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contributions](#contributions)
   * [Testing](#testing)
-  * [License](#license)
+  ${renderLicenseLink(data.license)}
   * [Questions](#questions)
 
   ## Installation
@@ -57,8 +63,7 @@ function generateMarkdown(data) {
   ## Testing
   ${data.testing}
 
-  ## License
-  This project has been licensed under the following: ${data.license}.
+  ${renderLicenseSection(data.license)}
 
   ## Questions
   For any questions regarding this or any other project created by ${data.github}, please contact me at ${data.email}.
