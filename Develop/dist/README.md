@@ -1,10 +1,10 @@
 
-  # kng
+  # elkag
 
-  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
   ## Description
-  kaejrng
+  klagemr
 
   ## Table of Contents
   * [Description](#description)
@@ -17,20 +17,20 @@
 
 
   ## Installation
-  kjerang
+  
 
   ## Usage
-  kjearng
+  
 
   ## Contributions
-  jkearng
+  
 
   ## Testing
-  kjareng
+  
 
   ## Questions
-  For any questions regarding this or any other project created by lkareg, please contact me at lakergm.
+  For any questions regarding this or any other project created by , please contact me at .
 
   ## License
-  This project is licensed under the following license: Mozilla Public License 2.0.
+  This project is licensed under the following license: GNU General Public License v3.0.
 
