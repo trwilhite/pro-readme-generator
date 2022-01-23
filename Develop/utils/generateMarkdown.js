@@ -2,16 +2,16 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === 'Apache License 2.0') {
-    return '![License](https://img.shields.io/badge/License-${license}-blue.svg)'
+    return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
   }
   if (license === 'GNU General Public License v3.0') {
-    return '![License: GPL v3](https://img.shields.io/badge/License-${license}-blue.svg)'
+    return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
   }
   if (license === 'MIT License') {
-    return '![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)'
+    return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
   }
   if (license === 'Mozilla Public License 2.0') {
-    return '![License: MPL 2.0](https://img.shields.io/badge/License-${license}-brightgreen.svg)'
+    return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
   }
   if (license === 'No License') {
     return ''
@@ -30,7 +30,21 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === 'No License') {
+    return ''
+  } else {
+    return '## License'
+  }
+}
+
+function renderLicenseContent(license) {
+  if (license === 'No License') {
+    return ''
+  } else {
+    return `This project is licensed under the following license: ${license}.`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -48,8 +62,9 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contributions](#contributions)
   * [Testing](#testing)
-  ${renderLicenseLink(data.license)}
   * [Questions](#questions)
+  ${renderLicenseLink(data.license)}
+
 
   ## Installation
   ${data.installation}
@@ -63,10 +78,12 @@ function generateMarkdown(data) {
   ## Testing
   ${data.testing}
 
-  ${renderLicenseSection(data.license)}
-
   ## Questions
   For any questions regarding this or any other project created by ${data.github}, please contact me at ${data.email}.
+
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseContent(data.license)}
+
 `;
 }
 
